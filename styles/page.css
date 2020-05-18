@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
+
+
+
+html {
+  position: relative;
+  overflow-x: hidden !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+}
+
+
+
+body {
+  font-family: "montserrat", sans-serif;
+
+}
+
+
+/* nav bar  */
+/* nav {
+  background-color: #F52601;
+} */
+
+/* .button {
+  border: none;
+  margin: 3px;
+  padding: 12px;
+  width: 100px;
+  font-family: "montserrat", sans-serif;
+  text-transform: uppercase;
+  border-radius: 6px;
+  cursor: pointer;
+} */
+
+.btn1 {
+  background: rgb(55, 191, 226);
+  background: linear-gradient(163deg, rgba(55, 191, 226, 1) 0%, rgba(45, 253, 117, 1) 100%);
+}
+
+.btn2 {
+  background: rgb(55, 191, 226);
+  background: linear-gradient(163deg, rgba(55, 191, 226, 1) 0%, rgba(45, 253, 117, 1) 100%);
+}
+
+
+
+.carousel-item .carousel-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-caption h5 {
+  font-size: 48px;
+  font-weight: 20px;
+}
+
+.carousel-caption p {
+  font-size: 30px;
+}
+
+/* /* css button nav bar */

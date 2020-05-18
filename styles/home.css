@@ -1,7 +1,9 @@
 nav {
-    background-color: rgb(49, 49, 133);
+    background-color:#F52601;
 }
-
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+}
 .button {
     border: none;
     margin: 3px;
@@ -118,7 +120,7 @@ textarea {
 
 .butt {
     width: 100%;
-    background: #00bcd4;
+    background: #f52601;
     color: #fff;
     border-radius: 0;
     border: none;
@@ -143,6 +145,7 @@ textarea {
     height: 438px;
     overflow: hidden;
     box-shadow: 0 5px 15px;
+    margin-bottom: 20px;
 }
 
 .card .post-image {
@@ -175,7 +178,7 @@ textarea {
     top: -30px;
     left: 0;
     height: 30px;
-    background: #00b8F4;
+    background: #f52601;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
@@ -200,9 +203,9 @@ textarea {
 .card .news-content .post-header {
     margin: 0;
     padding: 10px 0;
-    color: #007DA6;
+    color: black;
     height: 75px;
-
+    word-break: break-all;
     font-size: 28px;
     overflow: hidden;
 }
@@ -214,6 +217,7 @@ textarea {
     color: ;
     transition: .5s;
     opacity: 0;
+    word-break: break-all;
 
 }
 
@@ -224,4 +228,10 @@ textarea {
 /* css page.html  */
 .featurette-divider {
     margin-top: 100px;
+}
+
+
+.icone {
+    display: flex;
+    justify-content: space-around;
 }

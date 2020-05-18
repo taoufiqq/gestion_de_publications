@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+  
+
+   
+    include "checklogin.php";
+    include "checksignup.php";
+
+  
+
+?>
+
+
+
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link rel="stylesheet" href="login.css">
+	<link rel="stylesheet" href="styles/login.css">
 </head>
 
 <body>
-
+                     
 	<div class="container" id="container">
 		<div class="form-container sign-up-container">
-			<form action="#">
+			<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
 				<h1>Create Account</h1>
 
-				<span>or use your email for registration</span>
-				<input type="text" placeholder="Name" />
-				<input type="email" placeholder="Email" />
-				<input type="password" placeholder="Password" />
-				<button>Sign Up</button>
+			      <span><?php echo $msg;   ?></span>
+                <span><?php echo $usErr;   ?></span>
+				<input type="text" name="username" placeholder="username" />
+				<span><?php echo $passErr;   ?></span>
+				<input type="password" name="password" placeholder="Password" />
+				<button  type="submit" name="register">Sign Up</button>
 			</form>
 		</div>
-		<div class="form-container sign-in-container">
-			<form action="#">
-				<h1>Sign in</h1>
-
-				<span>or use your account</span>
-				<input type="email" placeholder="Email" />
-				<input type="password" placeholder="Password" />
+		<div class="form-container sign-in-container">   
+			<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
+				<!-- <h1>Sign in</h1>
+                <span style="color: red"><?php echo $ms;?></span> -->
+                <!--  <span><?php echo $userErr;   ?></span> -->
+				<input type="text" name="username"   placeholder="username" />
+				 <!--  <span><?php echo $passwordErr;   ?></span> -->
+				<input type="password" name="password" placeholder="Password" />
 				<a href="#">Forgot your password?</a>
-				<button>Sign In</button>
+				<button type="submit" name="login">Sign In</button>
 			</form>
 		</div>
 		<div class="overlay-container">
