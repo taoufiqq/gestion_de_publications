@@ -19,6 +19,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="styles/login.css">
+
+<style>
+
+
+.overlay {
+	background: #cc6699;
+}
+button{
+    border: 1px solid #cc6699;
+	background-color: #cc6699;
+}
+</style>
+
+
 </head>
 
 <body>

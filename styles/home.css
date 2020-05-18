@@ -1,6 +1,4 @@
-nav {
-    background-color:#F52601;
-}
+
 .navbar-dark .navbar-nav .nav-link {
     color:white;
 }
@@ -15,7 +13,7 @@ nav {
     cursor: pointer;
 }
 
-.btn1 {
+/* .btn1 {
     background: rgb(55, 191, 226);
     background: linear-gradient(163deg, rgba(55, 191, 226, 1) 0%, rgba(45, 253, 117, 1) 100%);
 }
@@ -23,7 +21,7 @@ nav {
 .btn2 {
     background: rgb(55, 191, 226);
     background: linear-gradient(163deg, rgba(55, 191, 226, 1) 0%, rgba(45, 253, 117, 1) 100%);
-}
+} */
 
 .navbar-nav li a {
     font-family: "montserrat", sans-serif;
@@ -120,7 +118,7 @@ textarea {
 
 .butt {
     width: 100%;
-    background: #f52601;
+    background: #837978;
     color: #fff;
     border-radius: 0;
     border: none;
@@ -191,7 +189,6 @@ textarea {
 .card .news-content .post-meta a {
     text-decoration: none;
     padding-right: 10px;
-    color: ;
     font-weight: bold;
     transition: .5s;
 }
@@ -214,7 +211,6 @@ textarea {
     font-size: 16px;
     margin: 10px 0 0;
     padding: 0;
-    color: ;
     transition: .5s;
     opacity: 0;
     word-break: break-all;

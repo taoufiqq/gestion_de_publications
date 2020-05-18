@@ -34,6 +34,15 @@
   <!-- Favicons -->
   <link rel="stylesheet" href="styles/home.css">
   <link rel="stylesheet" href="styles/style.css">
+
+
+
+  <style>
+    nav {
+           background-color:gray;
+        }
+
+  </style>
 </head>
 
 <body>
